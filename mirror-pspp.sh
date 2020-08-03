@@ -17,8 +17,10 @@ fi
 
 cd $psppdir
 git checkout master
-git pull
+git pull origin
+git push github 
 git checkout travis
-git rebase master
+git pull github 
+git merge --no-edit master
 git push github
 
