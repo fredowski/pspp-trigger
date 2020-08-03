@@ -20,7 +20,7 @@ git checkout master
 git pull origin
 git push github 
 git checkout travis
-git pull github 
+git pull github travis 
 git merge --no-edit master
 git push github
 
